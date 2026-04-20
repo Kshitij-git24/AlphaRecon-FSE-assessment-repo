@@ -23,7 +23,7 @@ Delete users
 Make sure you have the following installed:
 
 ### Backend
-- Java 17+ (Java 21+ recommended)
+- Java 25
 - `JAVA_HOME` configured
 
 ### Frontend
