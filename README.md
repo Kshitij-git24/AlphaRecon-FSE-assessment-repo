@@ -47,12 +47,15 @@ cd assessment-service
 ```
 
 Windows
+
 .\mvnw.cmd spring-boot:run
 
 macOS / Linux
+
 ./mvnw spring-boot:run
 
 Backend will start on:
+
 http://localhost:8080
 
 ▶️ Step 3: Start Frontend
