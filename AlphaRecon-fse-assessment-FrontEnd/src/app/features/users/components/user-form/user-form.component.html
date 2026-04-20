@@ -1,0 +1,41 @@
+<form class="user-form" [formGroup]="form" (ngSubmit)="submit()">
+  <mat-form-field appearance="outline" class="modern-field">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name" placeholder="Enter full name" />
+    @if (form.controls.name.hasError('required') && form.controls.name.touched) {
+      <mat-error>Name is required</mat-error>
+    }
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="modern-field">
+    <mat-label>Email</mat-label>
+    <input matInput type="email" formControlName="email" placeholder="Enter email address" />
+    @if (form.controls.email.hasError('required') && form.controls.email.touched) {
+      <mat-error>Email is required</mat-error>
+    }
+    @if (form.controls.email.hasError('email') && form.controls.email.touched) {
+      <mat-error>Enter a valid email address</mat-error>
+    }
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="modern-field">
+    <mat-label>Note</mat-label>
+    <textarea
+      matInput
+      formControlName="note"
+      rows="3"
+      placeholder="Optional note about the user"
+    ></textarea>
+  </mat-form-field>
+
+  <div class="actions">
+    <button mat-button type="button" class="cancel-button" (click)="onCancel()">Cancel</button>
+    <button mat-flat-button color="primary" type="submit" class="submit-button" [disabled]="submitting">
+      @if (submitting) {
+        <mat-spinner diameter="18"></mat-spinner>
+      } @else {
+        <span>{{ user ? 'Update User' : 'Create User' }}</span>
+      }
+    </button>
+  </div>
+</form>
