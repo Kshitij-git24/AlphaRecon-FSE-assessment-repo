@@ -46,11 +46,13 @@ Navigate to the backend project:
 cd assessment-service
 ```
 
-Windows
+Windows - 
 
 .\mvnw.cmd spring-boot:run
 
-macOS / Linux
+------OR------ 
+
+macOS / Linux - 
 
 ./mvnw spring-boot:run
 
@@ -83,3 +85,42 @@ Frontend runs on:
 http://localhost:4200
 
 Open this URL in your browser to use the application.
+
+
+🧪 Quick Test Flow
+Open http://localhost:4200
+Create a new user
+See it appear in the list
+Edit the user
+Delete the user
+
+⚠️ Important Notes
+In-Memory Database
+The backend uses H2 (in-memory)
+All data is lost when the backend restarts
+Backend Must Be Running First
+Frontend depends on backend APIs
+If backend is not running, UI will not function correctly
+Default Ports
+Backend: 8080
+Frontend: 4200
+🐛 Troubleshooting
+Frontend shows no data
+Ensure backend is running
+
+Test API:
+
+curl http://localhost:8080/users
+API errors (500)
+Check backend logs in terminal
+Most issues come from validation or exceptions
+H2 Console not loading
+
+
+To run the full application:
+
+Start backend (AlphaRecon-fse-assessment-BackEnd)
+Start frontend (AlphaRecon-fse-assessment-FrontEnd)
+Open http://localhost:4200
+
+You're now running the full stack locally 🚀
