@@ -118,10 +118,11 @@ If backend is not running, UI will not function correctly
 Default Ports  
 Backend: 8080   
 Frontend: 4200  
-🐛 Troubleshooting  
-Frontend shows no data  
-Ensure backend is running  
 
+
+## 🐛 Troubleshooting  
+Frontend shows no data
+Ensure backend is running
 Test API:
 ```bash
 curl http://localhost:8080/users
@@ -129,8 +130,6 @@ curl http://localhost:8080/users
 API errors (500)    
 Check backend logs in terminal  
 Most issues come from validation or exceptions  
-H2 Console not loading  
-
 
 To run the full application:  
 
