@@ -135,6 +135,6 @@ To run the full application:
 
 Start backend (AlphaRecon-fse-assessment-BackEnd)  
 Start frontend (AlphaRecon-fse-assessment-FrontEnd)  
-Open http://localhost:4200  
+Open http://localhost:4200/users  
 
 You're now running the full stack locally 🚀  
