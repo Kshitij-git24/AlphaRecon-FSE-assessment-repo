@@ -109,8 +109,8 @@ Edit the user
 Delete the user
 
 ## ⚠️ Important Notes
-In-Memory Database
-The backend uses H2 (in-memory)
+# In-Memory Database
+# The backend uses H2 (in-memory)
 All data is lost when the backend restarts
 Backend Must Be Running First
 Frontend depends on backend APIs
