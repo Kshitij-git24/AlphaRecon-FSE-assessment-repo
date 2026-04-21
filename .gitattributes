@@ -1,0 +1,6 @@
+# Normalize line endings for entire repo
+* text=auto eol=lf
+
+# Ensure shell scripts work in Linux/WSL/Mac
+*.sh text eol=lf
+mvnw text eol=lf
