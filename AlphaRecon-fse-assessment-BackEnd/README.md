@@ -183,14 +183,12 @@ No additional environment variables are required for the current implementation.
 ### Windows
 
 ```powershell
-.\mvnw.cmd clean package
 .\mvnw.cmd spring-boot:run
 ```
 
 ### macOS / Linux
 
 ```bash
-./mvnw clean package
 ./mvnw spring-boot:run
 ```
 
@@ -198,15 +196,6 @@ By default, the application starts on:
 
 `http://localhost:8080`
 
-The H2 console is available at:
-
-`http://localhost:8080/h2-console`
-
-Use these H2 settings locally:
-
-- JDBC URL: `jdbc:h2:mem:userdb`
-- Username: `sa`
-- Password: leave blank
 
 ## Running Tests
 
