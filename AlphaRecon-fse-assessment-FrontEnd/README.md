@@ -160,7 +160,7 @@ To run this project locally, you need:
 
 - Node.js 20+ recommended
 - npm
-- a backend API running locally on `http://localhost:8080`
+- a backend API running locally on `http://localhost:8080/`
 
 The backend should expose the REST endpoints described above and be connected to its database.
 
@@ -200,7 +200,7 @@ ng serve
 The Angular dev server runs on:
 
 ```text
-http://localhost:4200
+http://localhost:4200/users
 ```
 
 Because `proxy.conf.json` is already configured in `angular.json`, requests to `/api/*` from the frontend will be proxied automatically to `http://localhost:8080/*`.
