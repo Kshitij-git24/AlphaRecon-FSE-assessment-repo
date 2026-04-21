@@ -66,7 +66,7 @@ Backend will start on:
 
 http://localhost:8080
 
-▶️ Step 3: Start Frontend
+##▶️ Step 2: Start Frontend
 
 Open a new terminal and navigate to frontend:
 
@@ -90,7 +90,7 @@ or
 ng serve
 ```
 
-🌐 Access the Application
+##▶️ Step 3: 🌐 Access the Application
 
 Frontend runs on:
 
