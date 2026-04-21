@@ -1,6 +1,8 @@
 # AlphaRecon-FSE-assessment-repo
 This repo is my submission for the Aplha Recon Full Stack Software Engineer assessment and contains frontend and backend codebases with respective readme files explaining the codebases as requested and a main readme file in the root dir of the repo explaining how to run the project locally.
 
+There are ReadMe files in both the frontEnd and the BackEnd repo for better understanding, explaining stuff that was expected as per the requirements.
+This readMe is purely for running this full stack app locally.
 
 
 🧩 Full Stack User Management Application
