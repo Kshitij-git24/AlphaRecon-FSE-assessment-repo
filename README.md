@@ -43,7 +43,7 @@ You must run **both backend and frontend** for the application to work.
 Navigate to the backend project:
 
 ```bash
-cd assessment-service
+cd AlphaRecon-fse-assessment-BackEnd
 ```
 
 Windows - 
@@ -64,7 +64,7 @@ http://localhost:8080
 
 Open a new terminal and navigate to frontend:
 
-cd assessment-frontend
+cd AlphaRecon-fse-assessment-FrontEnd
 
 Install dependencies:
 
