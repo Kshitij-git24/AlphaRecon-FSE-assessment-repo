@@ -38,6 +38,8 @@ You must run **both backend and frontend** for the application to work.
 
 ---
 
+Clone the repository and open in vscode. Open two terminals, one for each folder((1)AlphaRecon-fse-assessment-BackEnd and (2)AlphaRecon-fse-assessment-FrontEnd) in the root directory.
+
 ## ▶️ Step 1: Start Backend
 
 Navigate to the backend project:
