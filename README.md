@@ -109,9 +109,9 @@ Edit the user
 Delete the user
 
 ## ⚠️ Important Notes
-# In-Memory Database
-# The backend uses H2 (in-memory)
-All data is lost when the backend restarts
+In-Memory Database  
+The backend uses H2 (in-memory)  
+All data is lost when the backend restarts  
 Backend Must Be Running First
 Frontend depends on backend APIs
 If backend is not running, UI will not function correctly
