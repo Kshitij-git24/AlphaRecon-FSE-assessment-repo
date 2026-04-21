@@ -51,14 +51,16 @@ cd AlphaRecon-fse-assessment-BackEnd
 ```
 
 Windows - 
-
+```bash
 .\mvnw.cmd spring-boot:run
-
+```
 ------OR------ 
 
 macOS / Linux - 
 
+```bash
 ./mvnw spring-boot:run
+```
 
 Backend will start on:
 
@@ -68,25 +70,33 @@ http://localhost:8080
 
 Open a new terminal and navigate to frontend:
 
+```bash
 cd AlphaRecon-fse-assessment-FrontEnd
+```
 
 Install dependencies:
 
+```bash
 npm install
-
+```
 Run the Angular app:
 
+```bash
 npm start
-
+```
 or
 
+```bash
 ng serve
+```
 
 🌐 Access the Application
 
 Frontend runs on:
 
+```bash
 http://localhost:4200
+```
 
 Open this URL in your browser to use the application.
 
@@ -113,8 +123,9 @@ Frontend shows no data
 Ensure backend is running
 
 Test API:
-
+```bash
 curl http://localhost:8080/users
+```
 API errors (500)
 Check backend logs in terminal
 Most issues come from validation or exceptions
