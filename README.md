@@ -112,30 +112,30 @@ Delete the user
 In-Memory Database  
 The backend uses H2 (in-memory)  
 All data is lost when the backend restarts  
-Backend Must Be Running First
-Frontend depends on backend APIs
-If backend is not running, UI will not function correctly
-Default Ports
-Backend: 8080
-Frontend: 4200
-🐛 Troubleshooting
-Frontend shows no data
-Ensure backend is running
+Backend Must Be Running First  
+Frontend depends on backend APIs  
+If backend is not running, UI will not function correctly  
+Default Ports  
+Backend: 8080   
+Frontend: 4200  
+🐛 Troubleshooting  
+Frontend shows no data  
+Ensure backend is running  
 
 Test API:
 ```bash
 curl http://localhost:8080/users
 ```
-API errors (500)
-Check backend logs in terminal
-Most issues come from validation or exceptions
-H2 Console not loading
+API errors (500)    
+Check backend logs in terminal  
+Most issues come from validation or exceptions  
+H2 Console not loading  
 
 
-To run the full application:
+To run the full application:  
 
-Start backend (AlphaRecon-fse-assessment-BackEnd)
-Start frontend (AlphaRecon-fse-assessment-FrontEnd)
-Open http://localhost:4200
+Start backend (AlphaRecon-fse-assessment-BackEnd)  
+Start frontend (AlphaRecon-fse-assessment-FrontEnd)  
+Open http://localhost:4200  
 
-You're now running the full stack locally 🚀
+You're now running the full stack locally 🚀  
