@@ -95,7 +95,7 @@ ng serve
 Frontend runs on:
 
 ```bash
-http://localhost:4200
+http://localhost:4200/users
 ```
 
 Open this URL in your browser to use the application.
