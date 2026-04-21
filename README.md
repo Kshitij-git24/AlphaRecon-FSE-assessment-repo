@@ -66,7 +66,7 @@ Backend will start on:
 
 http://localhost:8080
 
-##▶️ Step 2: Start Frontend
+## ▶️ Step 2: Start Frontend
 
 Open a new terminal and navigate to frontend:
 
@@ -90,7 +90,7 @@ or
 ng serve
 ```
 
-##▶️ Step 3: 🌐 Access the Application
+## ▶️ Step 3: 🌐 Access the Application
 
 Frontend runs on:
 
@@ -101,14 +101,14 @@ http://localhost:4200/users
 Open this URL in your browser to use the application.
 
 
-🧪 Quick Test Flow
+## 🧪 Quick Test Flow
 Open http://localhost:4200
 Create a new user
 See it appear in the list
 Edit the user
 Delete the user
 
-⚠️ Important Notes
+## ⚠️ Important Notes
 In-Memory Database
 The backend uses H2 (in-memory)
 All data is lost when the backend restarts
