@@ -1,10 +1,7 @@
-# Assessment Service
 
 ## Overview
 
-This project is a small Spring Boot REST API for managing users. It exposes CRUD-style endpoints for creating, listing, updating, and deleting user records, and stores data in an in-memory H2 database.
-
-The current implementation is backend-only. There is no separate frontend application in this repository, so the API itself is the primary interface for local development and testing.
+This project exposes CRUD-style endpoints for creating, listing, updating, and deleting user records, and stores data in an in-memory H2 database.
 
 ## System Architecture
 
@@ -90,12 +87,6 @@ The `User` entity maps to a `users` table and includes:
 
 The API returns a structured `ApiErrorResponse` object with a timestamp, status code, error label, and message.
 
-## Frontend Structure
-
-There is no frontend component in the current repository.
-
-If a frontend were added later, a practical next step would be to keep it separate from the Spring Boot codebase and have it consume the `/users` API over HTTP. That would preserve a clean backend boundary and make deployment options more flexible.
-
 ## Technology Choices
 
 ### Spring Boot
@@ -154,7 +145,6 @@ Maven is used as the build tool because it integrates cleanly with Spring Boot a
 - Extract DTO/entity mapping into a dedicated mapper layer.
 - Add profiles for local, test, and production configurations.
 - Add containerization support with Docker and, if needed, `docker-compose`.
-- Build a small frontend client for managing users through the API.
 
 ## Prerequisites
 
@@ -241,8 +231,7 @@ Delete a user:
 curl -X DELETE http://localhost:8080/users/1
 ```
 
-## Notes For Engineers
+## Notes
 
-- This repository currently implements only the backend portion of the system.
 - Because `spring.jpa.hibernate.ddl-auto=update` is enabled, the schema is managed automatically during startup for the in-memory database.
 - The `email` column is unique at the database level, so repeated inserts with the same email will fail.
